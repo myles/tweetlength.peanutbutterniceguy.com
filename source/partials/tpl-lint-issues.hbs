@@ -1,0 +1,8 @@
+<script id="tpl-lint-issues" type="text/x-handlebars-template">
+\{{#each issues}}
+<li class="list-group-item list-group-item-\{{class}}">\{{issue}}</li>
+\{{/each}}
+\{{#unless issues}}
+<li class="list-group-item list-group-item-success">There are no lint issues.</li>
+\{{/unless}}
+</script>

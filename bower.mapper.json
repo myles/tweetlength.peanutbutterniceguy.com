@@ -1,0 +1,11 @@
+{
+    "handlebars": {
+        "js": { "handlebars.js": "handlebars.min.js" }
+    },
+    "twitter-text-js": {
+      "js": { "js/pkg/twitter-text-1.13.0.js": "js/pkg/twitter-text-1.13.0.min.js" }
+    },
+    "jquery": {
+        "js": { "dist/jquery.js": "dist/jquery.min.js" }
+    }
+}

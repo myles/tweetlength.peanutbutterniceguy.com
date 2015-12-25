@@ -1,0 +1,9 @@
+{
+  "name": "lint-social",
+  "dependencies": {
+    "twitter-text-js": "twitter-text#~1.13.1",
+    "jquery": "~2.1.4",
+    "handlebars": "~4.0.5",
+    "bootstrap-sass": "~3.3.6"
+  }
+}
