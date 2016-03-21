@@ -3,6 +3,7 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json')
     });
 
+    grunt.loadNpmTasks("grunt-rsync");
     grunt.loadNpmTasks('grunt-uncss');
     grunt.loadNpmTasks('bower-mapper');
     grunt.loadNpmTasks('grunt-assemble');
